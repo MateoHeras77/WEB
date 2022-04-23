@@ -2,7 +2,7 @@ BEGIN:VCARD
 VERSION:3.0
 PRODID:-//Apple Inc.//macOS 12.4//EN
 N:Heras V.;Mateo;;;
-FN:Banco del Austro
+FN:Mateo Heras V.
 ORG:Banco del Austro;Atención de Consultas\, Quejas y Reclamos
 TITLE:Trainee
 EMAIL;type=INTERNET;type=WORK;type=pref:wmateohv@hotmail.com
@@ -921,5 +921,4 @@ PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQAAkACQAAD/4QB0RXhpZgAATU0AKgAA
  KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
  AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
  ACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
-X-ABShowAs:COMPANY
 END:VCARD
