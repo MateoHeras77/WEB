@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <!-- Basic page needs -->
     <meta charset="utf-8">
@@ -38,391 +40,351 @@
 
 <body id="top">
 
-	<!-- header 
-   ================================================== -->
-   <header> 
+	<!-- header ================================================== -->
+   <header>
+	<div class="header-logo">
+		<a href="index.html">Data Analysis</a>
+	</div>
 
-   	<div class="header-logo">
-	      <a href="index.html">Howdy</a>
-	   </div> 
+	<a id="header-menu-trigger" href="#0">
+		<span class="header-menu-text">Menu</span>
+		<span class="header-menu-icon"></span>
+	</a>
 
-		<a id="header-menu-trigger" href="#0">
-		 	<span class="header-menu-text">Menu</span>
-		  	<span class="header-menu-icon"></span>
-		</a> 
+	<nav id="menu-nav-wrap">
+		<a href="#0" class="close-button" title="close"><span>Close</span></a>
 
-		<nav id="menu-nav-wrap">
+		<h1>Data Analysis</h1> <!-- Encabezado H1 para SEO -->
 
-			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
+		<ul class="nav-list">
+			<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
+			<li><a class="smoothscroll" href="#about" title="">About</a></li>
+			<li><a class="smoothscroll" href="#skills" title="">Skills</a></li>
+			<li><a class="smoothscroll" href="#credentials" title="">Experience</a></li>
+			<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
+			<li><a class="smoothscroll" href="#stats" title="">Stats</a></li>
+			<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+		</ul>
 
-	   	<h3>Howdy.</h3>  
-
-			<ul class="nav-list">
-				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
-				<li><a class="smoothscroll" href="#about" title="">About</a></li>
-				<li><a class="smoothscroll" href="#skills" title="">Skills</a></li>
-				<li><a class="smoothscroll" href="#credentials" title="">Experience</a></li>
-				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
-				<li><a class="smoothscroll" href="#stats" title="">Stats</a></li>				
-				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>						
-			</ul>	
-
-			<ul class="header-social-list">
-	         <li>
-	         	<a href="https://www.facebook.com/mateoheras7/" target="_blank"><i class="fa fa-facebook-square"></i></a>
-	         </li>
-	         <li>
-	         	<a href="https://twitter.com/MateoHeras7" target="_blank"><i class="fa fa-twitter"></i></a>
-	         </li>
-            <li>
-            	<a href="https://www.linkedin.com/in/mateoheras/" target="_blank" ><i class="fa fa-linkedin"></i></a>
-            </li>
-	         <li>
-	         	<a href="https://github.com/MateoHeras77" target="_blank" ><i class="fa fa-github"></i></a>
-	         </li>
-	      </ul>		
-
-		</nav>  <!-- end #menu-nav-wrap -->
-
-	</header> <!-- end header -->  
+		<ul class="header-social-list">
+			<li>
+				<a href="https://www.facebook.com/mateoheras7/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+			</li>
+			<li>
+				<a href="https://twitter.com/MateoHeras7" target="_blank"><i class="fa fa-twitter"></i></a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/mateoheras/" target="_blank" ><i class="fa fa-linkedin"></i></a>
+			</li>
+			<li>
+				<a href="https://github.com/MateoHeras77" target="_blank" ><i class="fa fa-github"></i></a>
+			</li>
+		</ul>
+	</nav> <!-- end #menu-nav-wrap -->
+</header> <!-- end header -->
 
 
-   <!-- home
-   ================================================== -->
+   <!-- home ================================================== -->
    <section id="home">
-
-   	<div class="overlay"></div><div class="gradient-overlay"></div>
-
-   	<div class="home-content-table">		   
-
-		   <div class="home-content-tablecell">
-		   	<div class="row">
-		   		<div class="col-twelve">		   			
-			  			<div class="home-bottom-text">
-
-			  				<h3 class="animate-intro">Hello World</h3>
-				  			<h1 class="animate-intro">
-							I am Mateo Heras <br>
-							Data Science <br>
-							<!--Last year student of the Economics Career.-->
-				  			</h1>	
-
-							<ul class="home-section-links">
-								<li class="animate-intro">More <a href="#about" class="smoothscroll">About Me</a></li>
-								<li class="animate-intro">View <a href="#portfolio" class="smoothscroll">My Works</a></li>
-								<li class="animate-intro">Contact <a href="#contact" class="smoothscroll">By Email</a></li>								
-							</ul>
-
-			  			</div> <!-- end home-bottom-text -->
-			   	</div> <!-- end col-twelve --> 
-		   	</div> <!-- end row --> 
-		   </div> <!-- end home-content-tablecell --> 		   
-		</div> <!-- end home-content-table -->
-
-		<a href="#about" class="scroll-icon smoothscroll">		
-		   <span class="icon-DownArrow"></span>
-		</a>	
-   
-   </section> <!-- end home -->
+	<div class="overlay"></div>
+	<div class="gradient-overlay"></div>
+	<div class="home-content-table">
+	   <div class="home-content-tablecell">
+		  <div class="row">
+			 <div class="col-twelve">
+				<div class="home-bottom-text">
+					<h3 class="animate-intro">Hello World</h3>
+					<h1 class="animate-intro">I am Mateo Heras</h1>
+					<h1 class="animate-intro">Data Science</h1>
+				   
+				   <!-- Último año de estudiante de Economía. -->
+				   <ul class="home-section-links">
+					  <li class="animate-intro"><a href="#about" class="smoothscroll">Learn More About Me</a></li>
+					  <li class="animate-intro"><a href="#portfolio" class="smoothscroll">View My Works</a></li>
+					  <li class="animate-intro"><a href="#contact" class="smoothscroll">Contact Me By Email</a></li>
+				   </ul>
+				</div> <!-- end home-bottom-text -->
+			 </div> <!-- end col-twelve -->
+		  </div> <!-- end row -->
+	   </div> <!-- end home-content-tablecell -->
+	</div> <!-- end home-content-table -->
+ 
+	<a href="#about" class="scroll-icon smoothscroll">
+	   <span class="icon-DownArrow"></span>
+	</a>
+ </section>
+ 
 
 
-   <!-- about
-   ================================================== -->
+   <!-- about ================================================== -->
+
    <section id="about">
-
-   	<div class="about-profile-bg"></div>
-
-   	<div class="about-wrap">
-
-   		<div class="about-profile">
-
-   			<div class="about-profile-bg"></div>
-
-				<div class="intro">
-					<h3 class="animate-this">About</h3>
-	   			<h1 class="animate-this">More About Me</h1>
-
-	   			<p class="lead animate-this">Transform data into knowledge</p>					
-				</div>   		
-
-   			<p class="animate-this">
-				I am a highly skilled junior data analyst with experience in SQL, machine learning models, OpenAI, and Python programming. My focus is on providing accurate and insightful information through data analysis, aiming to drive strategic decision-making within organizations. I have a deep understanding of SQL and proficiency in developing and implementing machine learning models. I have also worked with OpenAI, leveraging its natural language capabilities to develop chatbots and virtual assistants. My expertise in Python programming enables me to perform data analysis, visualizations, and task automation. Additionally, I have worked in agile environments, using methodologies such as Scrum and Kanban. I am committed to continuous learning and growth in the field of data analysis and artificial intelligence.
-   			</p>
-
-   			<p class="animate-this">On the other hand, from a very early age I was an athlete, being my favorite sport basketball. I had the opportunity to represent my school, college, university and the province of Azuay in national and international championships. All these life experiences have allowed me to develop skills related to leadership, commitment, responsibility, empathy and respect towards people and the projects I am involved in.</p>
-
-   			<p>
-   				<!--<a href="#" class="button full-width animate-this">Contact Me</a>-->
-   				<a href="./docs/Curriculum Vitae.pdf" download="a CV Mateo Heras" 
-				   class="button button-primary full-width animate-this">Download CV</a>
-   			</p>  
-			
-			
-   			<p>
-				<!--<a href="#" class="button full-width animate-this">Contact Me</a>-->
-				<a href="./docs/Contacto NFC.vcf" download="a CV Mateo Heras" 
-				class="button button-primary full-width animate-this">Download Contact</a>
-			</p>  
-			
-
-   		</div> <!-- end about-profile  -->
-
-   		<div class="about-services">
-
-				<div class="intro">
-	   			<h3 class="animate-this">Services</h3>
-	   			<h1 class="animate-this">What I Do</h1>
-
-	   			<p class="lead animate-this">Currently my skills are directed towards data analysis, supervised learning (regression and classification algorithms), unsupervised learning (clustering), ensemble algorithms, time series and variable forecasting. 
-				</p>
-   			</div>
-
-   			<ul class="services">
-   				<li class="item-branding animate-this">
-   					<div class="icon-wrap">
-   						<i class="icon-RegisteredTrademark"></i>
-   					</div>
-   					<div class="service-item">
-   						<h4>Exploratory Data Analysis</h4>
-   						<p>The EDA allows us to know the general situation of the variables necessary to make a decision (customers, accounts, products, markets, etc). It allows us to find points of improvement in the institution and opportunities in the market.
-   						</p>
-   					</div>   					
-   				</li>
-   				<li class="item-photography animate-this">
-   					<div class="icon-wrap">
-   						<i class="icon-TreeStructure"></i>
-   					</div>
-   					<div class="service-item">
-   						<h4>A.I. and Econometric Models</h4>
-   						<p>They allow us to know the relationships, probabilities and level of influence of a certain variable on others. With this we enhance decision making.
-   						</p>
-   					</div>   					
-   				</li>
-   				<li class="item-webdesign animate-this">
-   					<div class="icon-wrap">
-   						<i class="icon-Search"></i>
-   					</div>
-   					<div class="service-item">
-   						<h4>Time Series and Forecasting</h4>
-   						<p>They help to know how the variables of interest have fluctuated (they can be economic as well as business; GDP, CPI, sales, etc) over time and thus forecast the future values of these variables.
-   						</p>
-   					</div>   					
-   				</li>
-   				<li class="item-uiux animate-this">
-   					<div class="icon-wrap">
-   						<i class="icon-Checked"></i>
-   					</div>
-   					<div class="service-item">
-   						<h4>Extra Skills</h4>
-   						<p>I have also gained skills in Design Thinking, photo and video editing, graphic design and SCRUM. Not at great levels but I understand and manage the concepts.
-   						</p>
-   					</div>   					
-   				</li>
-   			</ul>   			
-
-   		</div> <!-- end about-services  -->   		
-
-   	</div> <!-- end about-wrap  -->
-
-   </section> <!-- end about -->
+	<div class="about-profile-bg"></div>
+	<div class="about-wrap">
+	   <div class="about-profile">
+		  <div class="about-profile-bg"></div>
+		  <div class="intro">
+			 <h1 class="animate-this">Mateo Heras - Data Analyst and AI Enthusiast</h1>
+			 <h3 class="animate-this">About Me</h3>
+			 <p class="lead animate-this">Transforming Data into Actionable Insights</p>
+		  </div>
+		  <p class="animate-this">
+			 I am a highly skilled junior data analyst with experience in SQL, machine learning models, OpenAI, and Python programming. My focus is on providing accurate and insightful information through data analysis, aiming to drive strategic decision-making within organizations. I have a deep understanding of SQL and proficiency in developing and implementing machine learning models. I have also worked with OpenAI, leveraging its natural language capabilities to develop chatbots and virtual assistants. My expertise in Python programming enables me to perform data analysis, visualizations, and task automation. Additionally, I have experience working in agile environments, using methodologies such as Scrum and Kanban. I am committed to continuous learning and growth in the field of data analysis and artificial intelligence.
+		  </p>
+		  <p class="animate-this">
+			 On the other hand, from a very early age, I was an athlete, with basketball being my favorite sport. I had the opportunity to represent my school, college, university, and the province of Azuay in national and international championships. These life experiences have allowed me to develop skills related to leadership, commitment, responsibility, empathy, and respect towards people and the projects I am involved in.
+		  </p>
+		  <p>
+			 <a href="./docs/Curriculum Vitae.pdf" download="Mateo_Heras_CV.pdf" class="button button-primary full-width animate-this">Download CV</a>
+		  </p>
+		  <p>
+			 <a href="./docs/Contacto NFC.vcf" download="Mateo_Heras_Contact.vcf" class="button button-primary full-width animate-this">Download Contact</a>
+		  </p>
+	   </div> <!-- end about-profile  -->
+	   <div class="about-services">
+		  <div class="intro">
+			 <h3 class="animate-this">Services</h3>
+			 <h1 class="animate-this">What I Do</h1>
+			 <p class="lead animate-this">Skills in Data Analysis, AI, Econometrics, and More</p>
+		  </div>
+		  <ul class="services">
+			 <li class="item-branding animate-this">
+				<div class="icon-wrap">
+				   <i class="icon-RegisteredTrademark"></i>
+				</div>
+				<div class="service-item">
+				   <h4>Data Analysis and Exploration</h4>
+				   <p>Exploratory Data Analysis (EDA) allows us to understand the general situation of the variables necessary to make informed decisions (customers, accounts, products, markets, etc). It helps identify areas of improvement and opportunities in the market.</p>
+				</div>
+			 </li>
+			 <li class="item-photography animate-this">
+				<div class="icon-wrap">
+				   <i class="icon-TreeStructure"></i>
+				</div>
+				<div class="service-item">
+				   <h4>Machine Learning and Econometric Models</h4>
+				   <p>Machine learning models and econometric analysis help uncover relationships, probabilities, and the level of influence of variables on each other. This enhances decision-making processes.</p>
+				</div>
+			 </li>
+			 <li class="item-webdesign animate-this">
+				<div class="icon-wrap">
+				   <i class="icon-Search"></i>
+				</div>
+				<div class="service-item">
+				   <h4>Time Series Forecasting</h4>
+				   <p>Time series analysis helps to understand how specific variables (economic or business-related, such as GDP, CPI, sales, etc.) fluctuate over time, allowing for future value forecasting.</p>
+				</div>
+			 </li>
+			 <li class="item-uiux animate-this">
+				<div class="icon-wrap">
+				   <i class="icon-Checked"></i>
+				</div>
+				<div class="service-item">
+				   <h4>Additional Skills</h4>
+				   <p>In addition to data analysis and AI skills, I have gained knowledge in Design Thinking, photo and video editing, graphic design, and SCRUM methodologies.</p>
+				</div>
+			 </li>
+		  </ul>
+	   </div> <!-- end about-services  -->
+	</div> <!-- end about-wrap  -->
+ </section> <!-- end about -->
+ 
 
 
-   <!-- about
-   ================================================== -->
+   <!-- about  ================================================== -->
    <section id="skills">
+	<div class="overlay"></div>
+	<div class="gradient-overlay"></div>
+	
+	<div class="row wide">
+	   <div class="col-skills">
+		  <div class="section-intro">
+			 <h1 class="animate-this">Skills and Expertise</h1>
+			 <h3 class="animate-this">Skillset</h3>
+		  
+			 <p class="animate-this">Based on the premise that learning "everything" about a technology is highly complicated, I have rated my skills with approximate levels, but with the dedication to continue learning and enhancing them:</p>
+		  </div>
+		  <ul class="skill-bars">
+			 <li class="animate-this" data-animate="fadeInRight">
+				<div class="progress percent90"><span>90%</span></div>
+				<strong>Data Analysis with EXCEL</strong>
+			 </li>
+			 <li class="animate-this" data-animate="fadeInRight">
+				<div class="progress percent55"><span>55%</span></div>
+				<strong>Data Analysis with R STUDIO</strong>
+			 </li>
+			 <li class="animate-this" data-animate="fadeInRight">
+				<div class="progress percent55"><span>55%</span></div>
+				<strong>Data Analysis with PYTHON</strong>
+			 </li>
+			 <li class="animate-this" data-animate="fadeInRight">
+				<div class="progress percent55"><span>55%</span></div>
+				<strong>Data Analysis with STATA</strong>
+			 </li>
+			 <li class="animate-this" data-animate="fadeInRight">
+				<div class="progress percent45"><span>45%</span></div>
+				<strong>Agile Methodologies</strong>
+			 </li>   
+			 <li class="animate-this" data-animate="fadeInRight">
+				<div class="progress percent60"><span>60%</span></div>
+				<strong>Data Visualization with POWER BI</strong>
+			 </li>   
+		  </ul>
+	   </div> <!-- end col-six -->
+	</div> <!-- end row wide -->
+ </section> <!-- end skills -->
+ 
 
-   	<div class="overlay"></div>
-   	<div class="gradient-overlay"></div>
-   	
-   	<div class="row wide">
-   		<div class="col-skills">
-
-   			<div class="section-intro">
-   				<h3 class="animate-this">Skillset</h3>
-   			   <h1 class="animate-this">I've Got Some Skills</h1>
-   			
-   			   <p class="animate-this">Based on the premise that learning "everything" about a technology is highly complicated, I have put an approximate rating of my skills, but with the hope of continuing to learn and improve them:</p>
-   			</div>
-
-   			<ul class="skill-bars">
-				   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent90"><span>90%</span></div>
-				   	<strong>EXCEL</strong>
-				   </li>
-				   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent45"><span>45%</span></div>
-				   	<strong>R STUDIO</strong>
-				   </li>
-				   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent45"><span>45%</span></div>
-				   	<strong>PYTHON</strong>
-				   </li>
-				   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent55"><span>55%</span></div>
-				   	<strong>STATA</strong>
-				   </li>
-				   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent45"><span>45%</span></div>
-				   	<strong>Agile Methodologies</strong>
-				   </li>   
-				   <li class="animate-this" data-animate="fadeInRight">
-				   	<div class="progress percent45"><span>45%</span></div>
-				   	<strong>POWER BI</strong>
-				   </li>   
-				</ul>
-   			
-   		</div> <!-- end col-six -->
-   	</div> <!-- end row wide -->
-
-   </section> <!-- end skills -->
-
-
-   <!-- credentials
-   ================================================== -->
+   <!-- credentials ================================================== -->
    <section id="credentials">
-
-   	<div class="row narrow section-intro with-bottom-sep">
-   		<div class="col-twelve">
-   			<h3 class="animate-this">Career and Education</h3>
-	   		<h1 class="animate-this">More of My Credentials</h1>  			
-	   		
-	   		<p class="lead">Leadership, Commitment, Responsibility, Empathy and Respect.</p>	   			
-   		</div>   		
-   	</div> <!-- end section-intro -->
-
-		<div class="row wide credentials-content">
-
-			<div class="col-six tab-full left">
-
-				<h2 class="animate-this">Experience</h2>
-
-	   		<div class="timeline-wrap">
-				<!-- end section intro -->
-				
-				<div class="timeline-block animate-this">
-					<div class="timeline-ico">
-						<i class="fa fa-briefcase"></i>
-					</div>
-			 <div class="timeline-header">
-				 <p class="timeframe">ABR 2022 - JUN 2022</p>
-				 <h3>BANCO DEL AUSTRO </h3>
-				 <h4>Trainee</h4>	   					
-			 </div>
-			 <div class="timeline-content">	   					
-				<p> Part 1): Creation and review of structures for the SSBB.
-					Part 2): Handling and Management of requirements from Control entities</p>
-			 </div>
-		 </div> <!-- end timeline-block -->
-   				<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
+	<div class="row narrow section-intro with-bottom-sep">
+	   <div class="col-twelve">
+		  <h1 class="animate-this">Career and Education</h1>
+		  <h3 class="animate-this">More of My Credentials</h3>
+		  <p class="lead">Leadership, Commitment, Responsibility, Empathy, and Respect.</p>
+	   </div>   		
+	</div> <!-- end section-intro -->
+ 
+	<div class="row wide credentials-content">
+	   <div class="col-six tab-full left">
+		  <h2 class="animate-this">Work Experience</h2>
+		  <div class="timeline-wrap">
+			 <!-- end section intro -->
+			 <div class="timeline-block animate-this">
+				<div class="timeline-ico">
+				   <i class="fa fa-briefcase"></i>
+				</div>
 				<div class="timeline-header">
-					<p class="timeframe">OCT 2021 - NOV 2021</p>
-					<h3>MAKOL ECUADOR CIA LTDA </h3>
-					<h4>Trainee</h4>	   					
+				   <p class="timeframe">APR 2022 - JUN 2022</p>
+				   <h3>BANCO DEL AUSTRO</h3>
+				   <h4>Trainee</h4>	   					
 				</div>
 				<div class="timeline-content">	   					
-					<p> Provide support in the areas of finance, logistics and management, 
-						mainly in the creation of Dashboards, Data Analytics and Creation of forecast models</p>
+				   <p>Part 1: Created and reviewed structures for the SSBB.
+					  Part 2: Handled and managed requirements from Control entities.</p>
 				</div>
-			</div> <!-- end timeline-block -->
+			 </div> <!-- end timeline-block -->
+			 
+			 <!-- Include additional work experience blocks here -->
+			 <div class="timeline-block animate-this">
+				<div class="timeline-ico">
+				   <i class="fa fa-briefcase"></i>
+				</div>
+				<div class="timeline-header">
+				   <p class="timeframe">OCT 2021 - NOV 2021</p>
+				   <h3>MAKOL ECUADOR CIA LTDA</h3>
+				   <h4>Trainee</h4>	   					
+				</div>
+				<div class="timeline-content">	   					
+				   <p>Provide support in the areas of finance, logistics and management, mainly in the creation of Dashboards, 
+					Data Analytics and Creation of forecast models</p>
+				</div>
+			 </div> <!-- end timeline-block -->
+			 
+			<!-- Include additional work experience blocks here -->
+			<div class="timeline-block animate-this">
+				<div class="timeline-ico">
+				   <i class="fa fa-briefcase"></i>
+				</div>
+				<div class="timeline-header">
+				   <p class="timeframe">JUL 2021 - SEP 2021</p>
+				   <h3>BBANCO PICHINCHA</h3>
+				   <h4>Trainee</h4>	   					
+				</div>
+				<div class="timeline-content">	   					
+				   <p>Part 1): I developed activities related to the digital transformation that the institution is going through, I supported in the implementation of agile methodologies and issues related to user experience. 
+					  Part 2): I provided support to SME (PYMES) executives on issues related to the acquisition of products by known and new customers.</p>
+				</div>
+			 </div> <!-- end timeline-block -->
 
-				   <div class="timeline-block animate-this">
-					<div class="timeline-ico">
-						<i class="fa fa-briefcase"></i>
-					</div>
-					<div class="timeline-header">
-						<p class="timeframe">JUL 2021 - SEP 2021</p>
-						<h3>BANCO PICHINCHA</h3>
-						<h4>Trainee</h4>	   					
-					</div>
-					<div class="timeline-content">	   					
-						<p>Part 1): I developed activities related to the digital transformation that the institution is going through, I supported in the implementation of agile methodologies and issues related to user experience. 
-						 Part 2): I provided support to SME (PYMES) executives on issues related to the acquisition of products by known and new customers.</p>
-					</div>
-				</div> <!-- end timeline-block -->
+			<!-- Include additional work experience blocks here -->
+			<div class="timeline-block animate-this">
+				<div class="timeline-ico">
+				   <i class="fa fa-briefcase"></i>
+				</div>
+				<div class="timeline-header">
+				   <p class="timeframe">JUL 2014 - AUG 2014</p>
+				   <h3>EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A.</h3>
+				   <h4>Trainee</h4>	   					
+				</div>
+				<div class="timeline-content">	   					
+				   <p>I provided support in the commercial area of the institution (as part of the process of approval of the academic year of the Unidad Educativa Técnico Salesiano).</p>
+				</div>
+			 </div> <!-- end timeline-block -->
 
-	   			<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
-	   				</div>
-	   				<div class="timeline-header">
-	   					<p class="timeframe">JUL 2014 - AUG 2014</p>
-	   					<h3>EMPRESA ELÉCTRICA REGIONAL CENTRO SUR C.A.</h3>
-	   					<h4>Trainee</h4>	   					
-	   				</div>
-	   				<div class="timeline-content">	   					
-	   					<p>I provided support in the commercial area of the institution (as part of the process of approval of the academic year of the Unidad Educativa Técnico Salesiano).</p>
-	   				</div>
-	   			</div> <!-- end timeline-block -->
-				   
+			<!-- Include additional work experience blocks here -->
 
-   			</div> <!-- end timeline-wrap -->				
-   		
-	   	</div> <!-- end col-six -->
 
-	   	<div class="col-six tab-full right">
 
-	   		<h2 class="animate-this">Education</h2>
+ 
+		  </div> <!-- end timeline-wrap -->				
+	   </div> <!-- end col-six -->
+ 
+	   <div class="col-six tab-full right">
+		  <h2 class="animate-this">Education</h2>
+		  <div class="timeline-wrap">
+			 <div class="timeline-block animate-this">
+				<div class="timeline-ico">
+				   <i class="fa fa-graduation-cap"></i>
+				</div>
+				<div class="timeline-header">
+				   <p class="timeframe">SEP 2017 - FEB 2023</p>
+				   <h3>UNIVERSIDAD DE CUENCA</h3>
+				   <h4>Bachelor's Degree in Economics</h4>	   					
+				</div>
+				<div class="timeline-content">	   					
+				   <p>President of the University Sports League of the School of Economics and Administrative Sciences; Student Representative; 
+					  Member of the Interuniversity Basketball Team of the University of Cuenca.</p>
+				</div>
+			 </div> <!-- end timeline-block -->
+			 
+			 <!-- Include additional education blocks here -->
+			 
+			 <div class="timeline-block animate-this">
+				<div class="timeline-ico">
+				   <i class="fa fa-graduation-cap"></i>
+				</div>
+				<div class="timeline-header">
+				   <p class="timeframe">SEP 2016 - JUL 2017</p>
+				   <h3>UNIVERSIDAD DE CUENCA</h3>
+				   <h4>Business Administration Student</h4>	   					
+				</div>
+				<div class="timeline-content">	   					
+				   <p></p>
+				</div>
+			 </div> <!-- end timeline-block -->
 
-				<div class="timeline-wrap">
-
-   				<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-	   				<div class="timeline-header">
-	   					<p class="timeframe"> SEP 2017 - FEB 2023 </p>
-	   					<h3>UNIVERSIDAD DE CUENCA</h3>
-	   					<h4>Economist </h4>	   					
-	   				</div>
-	   				<div class="timeline-content">	   					
-	   					<p>President of the University Sports League of the School of Economics and Administrative Sciences; Student Representative; 
-							Member of the Interuniversity Basketball Team of the University of Cuenca.</p>
-	   				</div>
-	   			</div> <!-- end timeline-block -->
-
-				   <div class="timeline-block animate-this">
-					<div class="timeline-ico">
-						<i class="fa fa-graduation-cap"></i>
-					</div>
-					<div class="timeline-header">
-						<p class="timeframe">SEP 2016 - JUL 2017</p>
-						<h3>UNIVERSIDAD DE CUENCA</h3>
-						<h4>Business Administration Student</h4>	   					
-					</div>
-					<div class="timeline-content">	   					
-						<p> </p>
-					</div>
-
-				</div> <!-- end timeline-block -->
-	   			<div class="timeline-block animate-this">
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
-	   				</div>
-	   				<div class="timeline-header">
-	   					<p class="timeframe">SEP 2010 - JUL 2016</p>
-	   					<h3>UNIDAD EDUCATIVA TECNICO SALESIANO</h3>
-	   					<h4>Bachelor's degree with a major in Industrial, Electrical Installations, Equipment and Machines.</h4>	   					
-	   				</div>
-	   				<div class="timeline-content">	   					
-	   					<p>I belonged to the basketball team throughout my time at school. At that time I also represented the province at the national level. Also, given my education in electricity and electronics, I assembled and programmed (with a team) a battle robot, I got 2nd place.</p>
-	   				</div>
-
-	   			</div> <!-- end timeline-block -->
-
-   			</div> <!-- end timeline-wrap -->	   		
-	   		
-	   	</div> <!-- end col-six --> 			
-
-		</div> <!-- end row wide -->    	  	
-
-   </section> <!-- end credentials -->
+			 <!-- Include additional education blocks here -->
+			 
+			 <div class="timeline-block animate-this">
+				<div class="timeline-ico">
+				   <i class="fa fa-graduation-cap"></i>
+				</div>
+				<div class="timeline-header">
+				   <p class="timeframe">SEP 2010 - JUL 2016</p>
+				   <h3>UNIDAD EDUCATIVA TECNICO SALESIANO<h3>
+				   <h4>Bachelor's degree with a major in Industrial, Electrical Installations, Equipment and Machines.</h4>	   					
+				</div>
+				<div class="timeline-content">	   					
+				   <p>I belonged to the basketball team throughout my time at school. At that time I also represented the province at the national level. Also, given my education in electricity and electronics, I assembled and programmed (with a team) a battle robot, I got 2nd place.</p>
+				</div>
+			 </div> <!-- end timeline-block -->
+			 
+			 <!-- Include additional education blocks here -->
+			 
+			 <!-- Include additional education blocks here -->
+			 
+			 <!-- Include additional education blocks here -->
+ 
+			 
+		  </div> <!-- end timeline-wrap -->	   		
+	   </div> <!-- end col-six --> 			
+	</div> <!-- end row wide -->    	  	
+ </section> <!-- end credentials -->
+ 
    
 
-	<!-- portfolio
-   ================================================== -->
+	<!-- portfolio ================================================== -->
    <section id="portfolio">
 
    	<div class="row narrow section-intro with-bottom-sep">
